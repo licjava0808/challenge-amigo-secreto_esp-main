@@ -5,7 +5,7 @@ let amigos = [];
  * Agrega un amigo al array de amigos
  * Valida que el campo nombre no este vacio
  */
-function agregarAmigos(){
+function agregarAmigo(){
     let nombreAmigo = document.getElementById("amigo").value;
 
     if(nombreAmigo.trim() === ""){
